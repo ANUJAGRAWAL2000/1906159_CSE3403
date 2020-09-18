@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BASIC INFORMATION</title>
+</head>
+<style>
+#div_head{
+text-align:center;
+background-color:#dbe3e5;
+font-size:50px;
+}
+body{
+background-color:#e5df88;
+margin-bottom:40px;
+}
+#heading{
+margin-top:-4px;
+background-color:red;
+text-align:center;
+font-size:70px;
+color:#ffffff;
+margin-bottom:-10px;
+}
+#footer{
+padding-top:20px;
+height:80px;
+background-color:red;
+text-align:center;
+font-size:40px;
+color:#ffffff;
+margin-bottom:-90px;
+}
+</style>
+<body>
+<p id="heading">!! REGISTRATION FORM !!</p>
+<div>
+<h1 id="div_head">BASIC DETAIL</h1>
+    <table class="block" cellspacing="20px">
+				<tr>
+					<td>
+						<label for="formNo">Form Number</label>
+					</td>
+					<td>
+						<input type="text" id="formNo" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="name">Name</label>
+					</td>
+					<td>
+						<input type="text" name="name" id="name" />
+					</td>
+				</tr>	
+                <tr>
+					<td>
+						<label for="rollno">Roll No:</label>
+					</td>
+					<td>
+						<input type="text" id="rollno" name="lname">
+					</td>
+				</tr>					
+				<tr>
+					<td>
+						<label for="gender">Gender:</label>
+					</td>
+					<td>
+						<input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+					</td>
+				</tr>	
+                <tr>
+					<td>
+						<label for="DateOFBirth">DOB</label>
+					</td>
+					<td>
+						<input type="date" name="DOB" id="DateOFBirth" />
+					</td>
+				</tr>	
+                <tr>
+					<td>
+						<label for="PWD">PWD</label>
+					</td>
+					<td>
+						<input type="radio" id="yes" name="PWD" value="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="No" name="PWD" value="No">
+                        <label for="No">No</label><br>
+					</td>
+				</tr>					
+				<tr>
+					<td>
+						<label for="category">Category</label>
+					</td>
+					<td>
+						<select name="category" id="category">
+							<option value="General">General</option>
+							<option value="OBC">OBC</option>
+							<option value="SC">SC</option>
+							<option value="ST">ST</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="Address">Address</label></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<textarea id="Address" cols="48" rows="12"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="Pin">PIN Code</label></td>
+					<td><input type="number" id="Pin" /></td>
+				</tr>
+				<tr>
+					<td><label for="MobileNumber">Student Mobile Number</label></td>
+					<td><input type="number" id="MobileNumber" /></td>
+				</tr>
+				<tr>
+					<td><label for="MobileParent">Guardian Mobile Number</label></td>
+					<td><input type="number" id="MobileParent" /></td>
+				</tr>
+    </table>  
+</div>
+	<div class="block">
+			<h1 id="div_head">ACADEMIC INFORMATION</h1>
+			<table cellspacing="20px">
+				<tr>
+					<td>
+					    <label for="corse">Course</label>
+					</td>
+					<td>
+						<select id="corse"
+							><option value="BTech">B.Tech</option>
+							<option value="BArch">B.Arch</option>
+							<option value="IMSC">I.Msc</option>
+							<option value="PHD">PHD</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="branch">Branch</label></td>
+					<td><input type="text" id="branch"/></td>
+				</tr>
+				<tr>
+					<td>
+					    <label for="sem">Semester</label>
+					</td>
+					<td>
+						<input type="number" id="sem"/>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="air">AIR</label></td>
+					<td><input type="number" id="air" /></td>
+				</tr>
+				<tr>
+					<td><label for="Car">Category Rank</label></td>
+					<td><input type="number" id="Car" /></td>
+				</tr>
+				<tr>
+					<td><label for="cgpa">CGPA</label></td>
+					<td><input type="number" id="cgpa"/></td>
+				</tr>
+				<tr>
+					<td>
+						<label for="back">Backlog</label>
+					</td>
+					<td>
+						<input type="radio" name="back" id="yes" />
+						<label for="yes">Yes</label>
+						<input type="radio" id="no" name="back" />
+						<label for="no">No</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="Hostel">Hostel Accomodation</label>
+					</td>
+					<td>
+						<input type="radio" name="Hostel" id="yes" />
+						<label for="yes">Yes</label>
+						<input type="radio" name="Hostel" id="no" />
+						<label for="no">No</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="hosName">Hostel Name</label></td>
+					<td><input type="text" id="hosName" /></td>
+				</tr>
+				<tr>
+					<td><label for="roomNum">Room Number</label></td>
+					<td><input type="text" id="roomNum" /></td>
+				</tr>
+			</table>
+		</div>
+		<div class="block">
+			<h1 id="div_head">ACCOUNT DETAILS</h1>
+			<table cellspacing="20px">
+				<tr>
+					<td><label for="accName">Account Holder Name</label></td>
+					<td><input type="text" id="accName" /></td>
+				</tr>
+				<tr>
+					<td><label for="accNum">Account Number</label></td>
+					<td><input type="number" id="accNum" /></td>
+				</tr>
+				<tr>
+					<td><label for="ifsc">IFSC Code</label></td>
+					<td><input type="text" id="ifsc" /></td>
+				</tr>
+				<tr>
+					<td><label for="bankName">Bank Name</label></td>
+					<td><input type="text" id="bankName" /></td>
+				</tr>
+				<tr>
+					<td><label for="bankBranch">Bank Branch</label></td>
+					<td><input type="text" id="bankBranch" /></td>
+				</tr>
+			</table>
+		</div>
+<p id="footer">
+Name: Anuj Agrawal &nbsp Roll No: 1906159 &nbsp Branch: CSE2
+</p>
+</body>
+</html>
