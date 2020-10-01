@@ -1,0 +1,86 @@
+body,html {
+	height: 100%;
+	margin: 0;
+	color: white;
+}
+.top-img {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(https://www.pandotrip.com/wp-content/uploads/2018/03/Colosseum-in-Rome-at-sunrise.jpg);
+	height: 100%;
+	background-position: center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar {
+	padding: 20px;
+	background-color: black;
+}
+.nav-item {
+	font-size: 1.2rem;
+}
+.navbar-brand {
+	font-size: 1.5rem;
+}
+.content {
+	padding-top: 100px;
+}
+.heading{
+	margin-top: 5%;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 50px;
+	font-size: 4rem;
+	font-weight: 800;
+}
+.Monument1 {
+	background-image: url(./Image6.jpg);
+	height: 100%;
+	background-position: center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Monument2{
+	background-image: url(./Image9.jpg);
+	height: 100%;
+	background-position: center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Paris{
+	font-size: 2.5rem;
+	color:black;
+}
+.Paris2 {
+	font-size: 2.5rem;
+}
+@media only screen and (max-width: 475px) {
+	.heading{
+		font-size: 2rem;
+	}
+	.Monument1,
+	.Monument2,
+	.main-img {
+		background-position: center;
+	}
+}
+@media screen and (device-width: 640px) and (device-height: 360px) and (-webkit-device-pixel-ratio: 3) {
+	.heading {
+		font-size: 2rem;
+		margin-top:20px;
+	}
+}
+@media screen and (max-width: 823px)  {
+	.heading{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 824px) and (orientation: landscape) {
+	.heading {
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 568px ) and (orientation: landscape){
+	.heading{
+		font-size: 2rem
+	}
+}
